@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 
 	Entity top_wall = Entity(-3.55f, 2.0f, 7.1f, 0.1f, 0.0f);
 	Entity bottom_wall = Entity(-3.55f, -1.9f, 7.1f, 0.1f, 0.0f);
-	Entity ball = Entity(-0.05f, 0.05f, 0.1f, 0.1f, 0.0004f, 1.0f, 1.0f);
+	Entity ball = Entity(-0.05f, 0.05f, 0.1f, 0.1f, 0.0005f, 1.0f, 1.0f);
 	Entity left_paddle = Entity(-3.3f, 0.25f, 0.1f, 0.5f, 4.0f);
 	Entity right_paddle = Entity(3.2f, 0.25f, 0.1f, 0.5f, 4.0f);
 
