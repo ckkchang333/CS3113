@@ -498,7 +498,8 @@ int main(int argc, char *argv[])
 		program.SetModelviewMatrix(modelviewMatrix);
 
 		Input(game, event);
-		Update(game, elapsed);
+		Update(game, 
+			);
 		Render(game, program, textures);
 
 		SDL_GL_SwapWindow(displayWindow);
