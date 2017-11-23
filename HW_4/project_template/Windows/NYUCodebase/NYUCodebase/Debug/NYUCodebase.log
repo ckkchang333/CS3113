@@ -1,24 +1,2 @@
-﻿  main.cpp
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(191): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(192): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(193): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(194): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(195): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(205): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(212): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(235): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(236): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(237): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(238): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(239): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(249): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(254): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(309): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(423): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(424): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(452): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(461): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(486): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\onedrive\cs3113\hw_3 - copy\project_template\windows\nyucodebase\nyucodebase\main.cpp(289): warning C4172: returning address of local variable or temporary: game
-  NYUCodebase.vcxproj -> C:\Users\kylec\OneDrive\CS3113\HW_3 - Copy\project_template\Windows\NYUCodebase\Debug\NYUCodebase.exe
-  NYUCodebase.vcxproj -> C:\Users\kylec\OneDrive\CS3113\HW_3 - Copy\project_template\Windows\NYUCodebase\Debug\NYUCodebase.pdb (Partial PDB)
+﻿  NYUCodebase.vcxproj -> C:\Users\kylec\OneDrive\CS3113\HW_4\project_template\Windows\NYUCodebase\Debug\NYUCodebase.exe
+  NYUCodebase.vcxproj -> C:\Users\kylec\OneDrive\CS3113\HW_4\project_template\Windows\NYUCodebase\Debug\NYUCodebase.pdb (Partial PDB)
