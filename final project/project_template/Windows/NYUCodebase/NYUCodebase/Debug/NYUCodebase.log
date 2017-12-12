@@ -10,16 +10,16 @@ c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucode
 c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(347): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
 c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(356): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
 c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(359): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(492): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(608): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(609): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(681): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(697): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(741): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(763): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(767): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(809): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(854): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(861): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(473): warning C4172: returning address of local variable or temporary: game
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(415): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(531): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(532): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(604): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(620): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(664): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(686): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(690): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(732): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(777): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(784): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(396): warning C4172: returning address of local variable or temporary: game
   NYUCodebase.vcxproj -> C:\Users\kylec\CS3113\final project\project_template\Windows\NYUCodebase\Debug\NYUCodebase.exe

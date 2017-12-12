@@ -169,7 +169,7 @@ void worldToTileCoordinates(float worldX, float worldY, int* gridX, int* gridY) 
 class SheetSprite {
 public:
 	SheetSprite();
-	SheetSprite(unsigned int textureID,  float width, float height, float size);
+	SheetSprite(unsigned int textureID, float width, float height, float size);
 
 	void Draw(Matrix& view, ShaderProgram* program, float x, float y, int index);
 
@@ -183,7 +183,7 @@ public:
 
 SheetSprite::SheetSprite() :size(1), textureID(0) {}
 
-SheetSprite::SheetSprite(unsigned int textureID,  float width, float height, float size) :
+SheetSprite::SheetSprite(unsigned int textureID, float width, float height, float size) :
 	textureID(textureID), width(width), height(height), size(size) {}
 
 void SheetSprite::Draw(Matrix& view, ShaderProgram* program, float x, float y, int index) {
@@ -360,10 +360,12 @@ void Entity::Update(float elapsed, bool gameNum, Mix_Chunk* thud) {
 		collidedLeft = true;
 	}
 
+	position.x += velocity.x * elapsed;
+
 }
 
 void Entity::Render(Matrix& view, ShaderProgram &program, int index) {
-	if(index >= 80 && velocity.x == 0)
+	if (index >= 80 && velocity.x == 0)
 		sprite.Draw(view, &program, position.x, position.y, 80);
 	else
 		sprite.Draw(view, &program, position.x, position.y, index);
@@ -410,7 +412,7 @@ void placeEntity(string type, float x, float y, GLuint texID, GameState& game) {
 		index = 51;
 	float u = (float)(((int)index) % SPRITE_COUNT_X) / (float)SPRITE_COUNT_X;
 	float v = (float)(((int)index) / SPRITE_COUNT_X) / (float)SPRITE_COUNT_Y;
-	SheetSprite new_sprite = SheetSprite(texID,  SPRITE_WIDTH, SPRITE_HEIGHT, 4.1);
+	SheetSprite new_sprite = SheetSprite(texID, SPRITE_WIDTH, SPRITE_HEIGHT, 4.1);
 	new_ent->sprite = new_sprite;
 
 	new_ent->isStatic = false;
@@ -787,7 +789,7 @@ void renderGame(GameState& game_1, GameState& game_2, ShaderProgram& program, GL
 }
 
 void renderVic(ShaderProgram& program, GLuint texts) {
-	if(winner == 1)
+	if (winner == 1)
 		drawText(program, texts, "Rock Bottom Wins!", 16, -6.0f, -72.0f, 0.0f);
 	else
 		drawText(program, texts, "Sky Rock-ette Wins!", 16, -6.0f, -92.0f, 0.0f);
@@ -813,7 +815,7 @@ void Render(GameState& game_1, GameState& game_2, ShaderProgram& program, GLuint
 		renderGame(game_1, game_2, program, sprites[0], coinIndex, walkIndex);
 		renderVic(program, sprites[1]);
 	}
-	
+
 
 
 
