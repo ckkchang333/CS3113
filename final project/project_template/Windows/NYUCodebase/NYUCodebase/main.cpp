@@ -247,7 +247,7 @@ public:
 
 	Entity(Vector3 position, Vector3 size);
 
-	void Update(float elapsed, bool gameNum, Mix_Chunk* thud);
+	bool Update(float elapsed, bool gameNum, Mix_Chunk* thud);
 	void Render(Matrix& view, ShaderProgram &program, int index);
 	void CollidesWith(Entity& entity, Mix_Chunk* pickup);
 
@@ -272,7 +272,7 @@ Entity::Entity() : position(Vector3()), size(Vector3()), velocity(Vector3()), ac
 Entity::Entity(Vector3 position, Vector3 size) : position(position), size(size), velocity(Vector3()), acceleration(Vector3()),
 collidedTop(false), collidedBottom(false), collidedLeft(false), collidedRight(false), draw(true) {}
 
-void Entity::Update(float elapsed, bool gameNum, Mix_Chunk* thud) {
+bool Entity::Update(float elapsed, bool gameNum, Mix_Chunk* thud) {
 	collidedBottom = false;
 	collidedLeft = false;
 	collidedRight = false;
@@ -298,7 +298,7 @@ void Entity::Update(float elapsed, bool gameNum, Mix_Chunk* thud) {
 			position.y = 6.01f;
 		else
 			position.y = -58.0f;
-		return;
+		return true;
 	}
 	else if (levelData[*gridY][*gridX] != 0 && levelData[*gridY][*gridX] != 113 && levelData[*gridY][*gridX] != 114) {
 		if (velocity.y < -0.1)
@@ -361,6 +361,8 @@ void Entity::Update(float elapsed, bool gameNum, Mix_Chunk* thud) {
 	}
 
 	position.x += velocity.x * elapsed;
+
+	return false;
 
 }
 
@@ -681,12 +683,24 @@ void Update(GameState* game_1, GameState* game_2, float elapsed, vector<Mix_Chun
 
 
 
+		if (game_1->dynamics[0]->Update(elapsed, true, chunks[1])) {
+			for (int i = 1; i < game_1->dynamics.size(); ++i)
+				game_1->dynamics[i]->draw = true;
 
-		game_1->dynamics[0]->Update(elapsed, true, chunks[1]);
+		}
 		for (int i = 1; i < game_1->dynamics.size(); ++i)
 			game_1->dynamics[0]->CollidesWith(*game_1->dynamics[i], chunks[0]);
 
-		game_2->dynamics[0]->Update(elapsed, false, chunks[1]);
+
+
+
+		//bool boolean = game_2->dynamics[0]->Update(elapsed, false, chunks[1]);
+
+		if (game_2->dynamics[0]->Update(elapsed, false, chunks[1])) {
+			//cout << boolean << endl;
+			for (int i = 1; i < game_2->dynamics.size(); ++i)
+				game_2->dynamics[i]->draw = true;
+		}
 		for (int i = 1; i < game_2->dynamics.size(); ++i)
 			game_2->dynamics[0]->CollidesWith(*game_2->dynamics[i], chunks[0]);
 	}
@@ -824,7 +838,7 @@ void Render(GameState& game_1, GameState& game_2, ShaderProgram& program, GLuint
 int main(int argc, char *argv[])
 {
 	SDL_Init(SDL_INIT_VIDEO);
-	displayWindow = SDL_CreateWindow("Stone Race", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1280, 720, SDL_WINDOW_OPENGL);
+	displayWindow = SDL_CreateWindow("RACING STONES TURBO", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1280, 720, SDL_WINDOW_OPENGL);
 	SDL_GLContext context = SDL_GL_CreateContext(displayWindow);
 	SDL_GL_MakeCurrent(displayWindow, context);
 	glEnable(GL_BLEND);
