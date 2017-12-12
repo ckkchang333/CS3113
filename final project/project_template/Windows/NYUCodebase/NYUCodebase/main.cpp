@@ -585,7 +585,7 @@ void Input(GameState&  game_1, GameState& game_2, Matrix& project, SDL_Event& ev
 			loadLevel(game_1, game_2, "level_2.txt", musics);
 		}
 		else if (keys[SDL_SCANCODE_3]) {
-			loadLevel(game_1, game_2, "level_3.txt", musics);
+			loadLevel(game_1, game_2, "level_3a.txt", musics);
 		}
 		else if (keys[SDL_SCANCODE_ESCAPE]) {
 			done = true;
@@ -641,7 +641,7 @@ void Input(GameState&  game_1, GameState& game_2, Matrix& project, SDL_Event& ev
 			loadLevel(game_1, game_2, "level_2.txt", musics);
 		}
 		else if (keys[SDL_SCANCODE_3]) {
-			loadLevel(game_1, game_2, "level_3.txt", musics);
+			loadLevel(game_1, game_2, "level_3a.txt", musics);
 		}
 		if (keys[SDL_SCANCODE_ESCAPE]) {
 			done = true;
@@ -697,7 +697,6 @@ void Update(GameState* game_1, GameState* game_2, float elapsed, vector<Mix_Chun
 		//bool boolean = game_2->dynamics[0]->Update(elapsed, false, chunks[1]);
 
 		if (game_2->dynamics[0]->Update(elapsed, false, chunks[1])) {
-			//cout << boolean << endl;
 			for (int i = 1; i < game_2->dynamics.size(); ++i)
 				game_2->dynamics[i]->draw = true;
 		}
@@ -852,10 +851,6 @@ int main(int argc, char *argv[])
 
 	ShaderProgram program(RESOURCE_FOLDER"vertex_textured.glsl", RESOURCE_FOLDER"fragment_textured.glsl");
 	SDL_Event event;
-
-	/*GLuint sprites = LoadSprites();
-	GLuint text = LoadText();*/
-
 	GLuint textures[] = { LoadSprites(), LoadText() };
 
 	Matrix projectionMatrix;

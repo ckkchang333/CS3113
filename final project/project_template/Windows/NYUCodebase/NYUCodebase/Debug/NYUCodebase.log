@@ -18,10 +18,10 @@ c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucode
 c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(666): warning C4018: '<': signed/unsigned mismatch
 c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(687): warning C4018: '<': signed/unsigned mismatch
 c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(691): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(701): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(704): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(746): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(791): warning C4018: '<': signed/unsigned mismatch
-c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(798): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(700): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(703): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(745): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(790): warning C4018: '<': signed/unsigned mismatch
+c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(797): warning C4018: '<': signed/unsigned mismatch
 c:\users\kylec\cs3113\final project\project_template\windows\nyucodebase\nyucodebase\main.cpp(398): warning C4172: returning address of local variable or temporary: game
   NYUCodebase.vcxproj -> C:\Users\kylec\CS3113\final project\project_template\Windows\NYUCodebase\Debug\NYUCodebase.exe
