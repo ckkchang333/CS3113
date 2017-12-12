@@ -1,0 +1,155 @@
+[header]
+width=40
+height=16
+tilewidth=16
+tileheight=16
+orientation=orthogonal
+
+[tilesets]
+tileset=arne_sprites.png,16,16,0,0
+
+[layer]
+type=Tile Layer 1
+data=
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,4,0,0,97,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,
+0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,
+0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,
+0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,98,0,0,4,0,0,0,
+0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,
+0,0,4,0,0,114,115,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,115,0,0,0,0,0,0,4,0,0,0,
+0,116,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,97,98,0,
+0,0,4,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,114,115,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,
+0,0,4,0,0,0,0,0,0,0,114,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,
+0,0,4,2,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,77,0,0,77,0,0,77,0,0,0,0,0,114,4,0,0,0,
+0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,32,0,0,31,0,0,0,0,0,0,4,0,0,0,
+0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,116,
+0,0,0,0,116,0,0,0,0,0,0,0,0,0,116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,115,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,97,98,0,0,0,0,0,0,0,116,0,0,116,0,0,0,0,0,0,0,0,0,0,0,0,116,0,0,0,0,0
+
+[Object Layer 1]
+# Rock
+type=Rock
+location=5,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=15,8,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=17,10,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=6,8,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=8,8,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=33,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=12,6,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=10,6,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=28,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=34,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=25,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=33,11,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=34,11,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=29,5,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=27,6,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=25,5,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=30,6,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=4,10,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=18,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=19,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=21,12,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=28,5,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=26,5,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=24,6,1,1
+
+[Object Layer 1]
+# Gem
+type=Gem
+location=27,4,1,1
+
