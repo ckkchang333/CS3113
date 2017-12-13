@@ -779,7 +779,6 @@ void renderGame(GameState& game_1, GameState& game_2, ShaderProgram& program, GL
 		modelview.Identity();
 		modelview = modelview * view_2;
 		program.SetModelviewMatrix(modelview);
-
 		glDrawArrays(GL_TRIANGLES, 0, 6);
 
 		glDisableVertexAttribArray(program.positionAttribute);
@@ -1004,6 +1003,11 @@ int main(int argc, char *argv[])
 
 	Mix_FreeMusic(title_music);
 	Mix_FreeMusic(one_music);
+	Mix_FreeMusic(two_music);
+	Mix_FreeMusic(three_music);
+	Mix_FreeChunk(jump);
+	Mix_FreeChunk(pickup);
+	Mix_FreeChunk(thud);
 	SDL_Quit();
 	return 0;
 }
